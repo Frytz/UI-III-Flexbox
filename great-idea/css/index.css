@@ -72,26 +72,23 @@ h1, h2, h3, h4, h5 {
 /* nav */
 
 .container {
-	
-	width: 100%;
+	/*border: #333 1px solid;*/
+	width: 80%;
 	display:flex;
 	flex-wrap: wrap;
   }
   
-  /* Navigation */
-  .main-header .container .navbar {
-	display:flex;
-
-	align-items: center;
-	justify-content: space-between;
-	
-  }
+  /* Navigation*/ 
+  
   
 .container .navbar{
-	   
+	  
 		width: 100%;
 		display: flex;
+		align-items: center;
 		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: flex-end;
 		
 }
 .main-header .navbar ul {
@@ -99,7 +96,7 @@ h1, h2, h3, h4, h5 {
 	width: 90%;
 	display: flex;
 	
-	justify-content:space-between;
+	justify-content:space-evenly;
 	
   }
   
@@ -114,7 +111,18 @@ h1, h2, h3, h4, h5 {
   .logo {
 	margin-left:0;
   }
-  
+ /* service head */ 
+ .servHead {
+	border: #333 1px solid;
+	width: 100%;
+	display: flex; 
+	justify-content:center;
+  }
+ .servHead .desc{
+	 border: #333 1px solid;
+	 width:80% ;
+	
+ } 
   /* Hero section */
 
 
@@ -162,14 +170,44 @@ h1, h2, h3, h4, h5 {
 	
 	align-items: flex-end;
   }
-  .main-header .services-header-img{
-	border: #333 1px solid;  
-	width: 100%;
+ .main-header .servImg{
+	 border: #333 1px solid; 
+	 width: 100%;
 	display: flex;
-	  justify-content: center;
+	justify-content: center;
+ } 
+  .main-header .services-header-img{
+	border: #333 1px solid; 
+	width: 80%;
+	height: 250px;
+	
+	
+	
   }
   /* Content section */
-  .content-section-1 .container-1 {
+ .servSec{
+	border: solid black 1px;
+ }
+  .section-1{
+	display: flex;
+	flex-wrap: wrap;
+	border: solid black 1px;
+ } 
+ .section-1 .box-1, .box-2{
+	border: solid black 1px;
+	 width: 25%; 
+	  background-color: gray;
+ } 
+ .section-2{
+	border: solid black 1px;
+ }
+ .section-2 .box-3, .box-4{
+	border: solid black 1px;
+ }
+ .section-3{
+
+ }
+ .content-section-1 .container-1 {
 	
 	display: flex;
 	justify-content: space-evenly;
